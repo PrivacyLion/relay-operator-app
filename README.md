@@ -26,14 +26,33 @@ See Contributor Rewards →](./REWARDS.md)
 
 1. **Clone this repo:**
 
-2. **Install dependencies:**  
-(Add your install steps here, e.g. `npm install`, `cargo build`, etc.)
+   git clone https://github.com/PrivacyLion/relay-operator-app.git
+cd relay-operator-app
+
+3. **Install dependencies:**
+   
+- **Rust & Tauri GUI:**
+  ```
+  cd relay-operator-gui/src-tauri
+  cargo build --release
+  ```
+
+- **Python relay (if using):**
+  ```
+  pip install -r requirements.txt
 
 3. **Launch the app:**
+   
+   - **Run the Tauri GUI:**
+  ```
+  cargo tauri dev
+  ```
+  (Or launch the built binary in `target/release/`)
 
-or
-
-
+- **Or run the Python relay:**
+  ```
+  python relay_app.py
+  ```
 ---
 
 ## How to Contribute
