@@ -2,7 +2,7 @@
 
 # Privacy Lion Relay Operator
 
-An open-source NOSTR relay and operator dashboard for privacy-preserving, Bitcoin-paid data vending.
+An open-source NOSTR relay and operator dashboard for privacy-preserving, BTC paid data vending.
 
 - Turn any desktop into a NOSTR relay with 1-click.
 - Own and monetize your data—get paid in BTC.
