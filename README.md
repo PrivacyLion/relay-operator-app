@@ -1,80 +1,65 @@
 See Contributor Rewards →](./REWARDS.md)
 
-# Privacy Lion Relay Operator
+Privacy Lion Relay Operator
+An open-source NOSTR relay and operator dashboard for privacy-preserving, Bitcoin-paid data vending.
 
-**An open-source NOSTR relay and operator dashboard for privacy-preserving, Bitcoin-paid data vending.**
+Turn any desktop into a NOSTR relay with 1-click.
 
--    **Turn any desktop into a NOSTR relay with 1-click.**
--    **Own and monetize your data—get and get paid in BTC.**
--    **Full privacy, permissioned payments, and no corporate middlemen.**
--    **Includes DVM support, Lightning integration, and relay moderation.**
+Own and monetize your data—get paid in BTC.
 
----
+Full privacy, permissioned payments, and no corporate middlemen.
 
-## Features
+Includes DVM support, Lightning integration, and relay moderation.
 
-- **Simple GUI:** 1-click start/stop relay with visual status.
-- **Pay-to-Write:** Only paid users can post data/events.
-- **DVM Integration:** Share, manage, and monetize user data securely.
-- **BTC/Lightning Payments:** Withdraw rewards or receive payouts in Bitcoin.
-- **Branch Protection:** Secure open-source code—PRs must be reviewed.
-- **Contributor Rewards:** See [REWARDS.md](./REWARDS.md).
+Features
+Simple GUI: 1-click start/stop relay with visual status.
 
----
+Pay-to-Write: Only paid users can post data/events.
 
-## Quick Start
+DVM Integration: Share, manage, and monetize user data securely.
 
-1. **Clone this repo:**
+BTC/Lightning Payments: Withdraw rewards or receive payouts in Bitcoin.
 
-   git clone https://github.com/PrivacyLion/relay-operator-app.git
+Branch Protection: Secure open-source code—PRs must be reviewed.
+
+Contributor Rewards: See REWARDS.md.
+
+Quick Start
+Clone this repo:
+
+git clone https://github.com/PrivacyLion/relay-operator-app.git
 cd relay-operator-app
 
-3. **Install dependencies:**
-   
-- **Rust & Tauri GUI:**
-  ```
-  cd relay-operator-gui/src-tauri
-  cargo build --release
-  ```
+Install dependencies:
 
-- **Python relay (if using):**
-  ```
-  pip install -r requirements.txt
+Rust & Tauri GUI:
+cd relay-operator-gui/src-tauri
+cargo build --release
 
-3. **Launch the app:**
-   
-   - **Run the Tauri GUI:**
-  ```
-  cargo tauri dev
-  ```
-  (Or launch the built binary in `target/release/`)
+Python relay (if using):
+pip install -r requirements.txt
 
-- **Or run the Python relay:**
-  ```
-  python relay_app.py
-  ```
----
+Launch the app:
 
-## How to Contribute
+Run the Tauri GUI:
+cargo tauri dev
+(Or launch the built binary in target/release/)
 
-- Open a pull request against `master` (default branch).
-- Read [REWARDS.md](./REWARDS.md) for how BTC rewards work.
-- Please follow our branch protection and code review policies.
+Or run the Python relay:
+python relay_app.py
 
----
+How to Contribute
+Open a pull request against master (default branch).
 
-## License
+Read REWARDS.md for how BTC rewards work.
 
-This project is licensed under the [Elastic License 2.0](./LICENSE).
+Please follow our branch protection and code review policies.
 
----
+License
+This project is licensed under the Elastic License 2.0.
 
-## About Privacy Lion
-
-Privacy Lion empowers anyone to operate paid NOSTR relays and sell their own data.
-
----
-
+About Privacy Lion
+Privacy Lion empowers anyone to operate paid NOSTR relays and sell their own data—no gatekeepers, no Big Tech, just Bitcoin.
 
 
 
