@@ -22,7 +22,7 @@ An open-source NOSTR relay and operator dashboard for privacy-preserving, BTC pa
 
 ---
 
-## How Data Buyers Use This App
+## How Data Buyers use this App
 
 **Companies connect to the relay to discover and purchase user data securely. Data is published as encrypted NOSTR events controlled by users. Buyers pay in BTC to unlock access, enforced by the relay’s pay-to-read system. Payments are made to data owners, relay operators and creator for the first and only privacy-first data marketplace.**
 
@@ -30,42 +30,29 @@ An open-source NOSTR relay and operator dashboard for privacy-preserving, BTC pa
 
 ## Quick Start
 
-1. **Clone this repo:**
+1. Clone this repo:
 
-```bash
+```bash   
 git clone https://github.com/PrivacyLion/relay-operator-app.git
 cd relay-operator-app
-   
-2. **Install dependencies:**
 
-- **Rust & Tauri GUI:**
+3. Install dependencies:
 
-  ```
-  cd relay-operator-gui/src-tauri
-  cargo build --release
-  ```
+- Rust & Tauri GUI:
+cd relay-operator-gui/src-tauri
+cargo build --release
 
-- **Python relay (if using):**
+- Python relay (if using):
+pip install -r requirements.txt
 
-  ```
-  pip install -r requirements.txt
-  ```
+3. Launch the app:
 
-3. **Launch the app:**
+- Run the Tauri GUI:
+cargo tauri dev
+(Or launch the built binary in target/release/)
 
-- **Run the Tauri GUI:**
-
-  ```
-  cargo tauri dev
-  ```
-
-  (Or launch the built binary in `target/release/`)
-
-- **Or run the Python relay:**
-
-  ```
-  python relay_app.py
-  ```
+- Or run the Python relay:
+python relay_app.py
 
 ---
 
