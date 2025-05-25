@@ -32,26 +32,34 @@ An open-source NOSTR relay and operator dashboard for privacy-preserving, BTC pa
 
 1. Clone this repo:
 
-```bash   
+```bash 
 git clone https://github.com/PrivacyLion/relay-operator-app.git
 cd relay-operator-app
 
 3. Install dependencies:
 
 - Rust & Tauri GUI:
+
+```bash
 cd relay-operator-gui/src-tauri
 cargo build --release
 
 - Python relay (if using):
+
+```bash
 pip install -r requirements.txt
 
 3. Launch the app:
 
 - Run the Tauri GUI:
+
+```bash
 cargo tauri dev
 (Or launch the built binary in target/release/)
 
 - Or run the Python relay:
+
+```bash
 python relay_app.py
 
 ---
