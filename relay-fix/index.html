@@ -8,6 +8,14 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <div id="invoice-container" style="display:none; border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+      <h3>Lightning Invoice</h3>
+      <textarea id="invoice-text" readonly rows="4" cols="50" style="width: 100%;"></textarea><br/>
+      <button id="copy-invoice-btn">Copy Invoice</button>
+      <div id="invoice-qr" style="margin-top: 10px;"></div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
