@@ -5,9 +5,9 @@
 An open-source NOSTR relay and operator dashboard for privacy-preserving BTC paid data vending.
 
 - Turn any computer into a NOSTR relay with 1-click.
-- Own and monetize your data—get paid in BTC.
-- Full privacy, permissioned payments, and no corporate middlemen.
-- Includes DVM support, Lightning integration, and relay moderation.
+- Own and monetize your data and get paid in BTC.
+- Full privacy, permissioned payments and no middlemen.
+- Includes DVM support, Lightning integration and relay moderation.
 
 ---
 
@@ -15,16 +15,16 @@ An open-source NOSTR relay and operator dashboard for privacy-preserving BTC pai
 
 - **Simple GUI:** 1-click start/stop relay with visual status.
 - **Pay-to-Write:** Only paid users can post data/events.
-- **DVM Integration:** Share, manage, and monetize user data securely.
+- **DVM Integration:** Share, manage and monetize user data securely.
 - **BTC/Lightning Payments:** Withdraw rewards or receive payouts in Bitcoin.
-- **Branch Protection:** Secure open-source code—PRs must be reviewed.
+- **Branch Protection:** Secure open-source code; PRs must be reviewed.
 - **Contributor Rewards:** See [REWARDS.md](./REWARDS.md).
 
 ---
 
 ## How Data Buyers use this App
 
-**Companies connect to the relay to discover and purchase user data. User data is published as encrypted NOSTR events controlled by users. Buyers pay in BTC to unlock access that is enforced by the relay’s pay-to-read system. Payments are made to data owners (90%), relay operators (8.5%) and creator (1.5%) for the first and only privacy-first data marketplace.**
+**Companies connect to the relay to discover and purchase user data. User data is published as encrypted NOSTR events controlled by users. Buyers pay in BTC to unlock access that is enforced by the relay’s pay-to-read system. BTC payments % are made to data owners (90%), relay operators (8.5%) and creator (1.5%) for the first and only privacy-first data marketplace.**
 
 ---
 
