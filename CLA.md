@@ -31,4 +31,4 @@ Privacy Lion LLC reserves the right to relicense the project (e.g., to Apache 2.
 
 By submitting a Contribution, you agree to the terms of this CLA.
 
-If you have questions, please contact legal@privacy-lion.com.
+If you have questions, please contact 1@privacy-lion.com.
