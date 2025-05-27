@@ -24,7 +24,7 @@ An open-source NOSTR relay and operator dashboard for privacy-preserving BTC pai
 
 ## How Data Buyers use this App
 
-**Companies connect to the relay to discover and purchase user data. User data is published as encrypted NOSTR events controlled by users. Buyers pay in BTC to unlock access that is enforced by the relay’s pay-to-read system. BTC payments % are made to data owners (90%), relay operators (8.5%) and creator (1.5%) for the first and only privacy-first data marketplace.**
+**Companies connect to the relay to discover and purchase encrypted user data. Users publish their data as NOSTR events they control. Buyers pay in BTC to unlock access via the relay’s pay-to-read system. Payments flow: 90% to the user, 8.5% to the relay operator, and 1.5% to the creator — making this the first privacy-first data marketplace.**
 
 ---
 
