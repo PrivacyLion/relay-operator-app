@@ -85,7 +85,7 @@ This project is licensed under the [Elastic License 2.0](./LICENSE).
 
 ## About Privacy Lion
 
-**Privacy Lion LLC is a mission-driven for-profit company. Our mission is to save privacy from the internet. All code is open source and purpose-built to empower humans to control their identity and data.**
+**Privacy Lion LLC is a single mission for-profit company. Our mission is: To Save Privacy from the Internet. All code is open source and purpose-built to empower humans to control their identity and data.**
 
 
 
