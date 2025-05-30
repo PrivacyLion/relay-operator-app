@@ -16,7 +16,7 @@ Payments are made directly from the **buyer’s wallet** to:
 
 - The **data seller** (user)  
 - The **relay operator** (data host)  
-- The **creator/maintainer** (creator)
+- The **creator** (maintainer)
 
 The relay acts as a **data host**, listening for payment completion and conditionally unlocking content. This architecture avoids classification as a money transmitter.
 
@@ -40,15 +40,34 @@ An individual or organization who browses metadata published to the relay and el
 
 ## Legal Definitions (FinCEN)
 
-> *“A money transmitter is any person... who accepts currency, funds, or other value that substitutes for currency from one person and transmits... to another location or person.”* — FinCEN
+The U.S. Department of the Treasury's Financial Crimes Enforcement Network (FinCEN) regulates Money Services Businesses (MSBs), including entities classified as **money transmitters**.
 
-The Privacy Lion relay does **none** of the following:
+### Legal Source
 
-- Accept funds  
-- Transmit funds  
-- Act as an intermediary or exchange  
-- Pool, custody, or forward funds  
-- Commingle user funds or any funds
+The key definition appears in the **Code of Federal Regulations (31 CFR § 1010.100(ff)(5))**, which defines a money transmitter as:
+
+> *“A person that provides money transmission services, or any other person engaged in the transfer of funds. The term 'money transmission services' means the acceptance of currency, funds, or other value that substitutes for currency from one person and the transmission of currency, funds, or other value that substitutes for currency to another location or person by any means.”*
+
+This includes—but is not limited to—transfers via wire, check, electronic means, or value exchange networks like Bitcoin or Lightning.
+
+### What Triggers MSB Classification
+
+To be classified as a money transmitter under FinCEN’s regulations, an entity must:
+
+1. **Accept funds** or value from one person, and  
+2. **Transmit those funds** to another person or location.
+
+**Both conditions must be met.** If either is not true, the business is not considered a money transmitter.
+
+### Why the Privacy Lion Relay Is Not a Money Transmitter
+
+The Privacy Lion relay does **not** satisfy either condition:
+
+- It **does not accept** funds from any party (buyers send funds directly via Lightning).
+- It **does not transmit** funds to any other party.
+- It has **no access to user funds**, does **not perform settlements**, and **does not act as a financial intermediary**.
+
+Instead, it operates as a **data host**, enforcing access to encrypted user-controlled data via externally verifiable peer-to-peer Lightning payments.
 
 ---
 
