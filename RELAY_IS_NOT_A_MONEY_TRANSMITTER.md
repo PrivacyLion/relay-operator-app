@@ -14,11 +14,27 @@ The Privacy Lion relay enforces pay-to-read access on encrypted NOSTR data event
 
 Payments are made directly from the **buyer’s wallet** to:
 
-- The **data seller** (user)
-- The **relay operator** (data host)
+- The **data seller** (user)  
+- The **relay operator** (data host)  
 - The **creator/maintainer** (creator)
 
 The relay acts as a **data host**, listening for payment completion and conditionally unlocking content. This architecture avoids classification as a money transmitter.
+
+---
+
+## Definitions
+
+**User (Seller):**  
+An individual who creates their own data using the Privacy Lion mobile app and publishes it as an encrypted NOSTR event (e.g., kind: 30078). The user selects a payout method — either a custodial Lightning wallet (e.g. Cash App, Strike) or a non-custodial Lightning wallet (e.g. Breez SDK or NWC). Users who choose a non-custodial option are fully responsible for managing their private keys. In practice, many users may prefer custodial wallets for ease of use. Users are not custodially onboarded by Privacy Lion or the relay operator.
+
+**Relay Operator (Data Host):**  
+An individual or entity who runs the Privacy Lion relay software to host NOSTR events and enforce access rules. The operator sets their own payout wallet and receives a fixed fee directly from the buyer. Relay operators do not custody funds and do not initiate or control any payment routing.
+
+**Creator (Maintainer):**  
+The organization or entity (e.g., Privacy Lion LLC) that developed and maintains the relay software and broader architecture. The creator receives a fixed fee directly from the buyer. The creator never takes custody of any funds and does not participate in payment flow or control user wallets.
+
+**Buyer:**  
+An individual or organization who browses metadata published to the relay and elects to unlock access to encrypted data by paying Lightning invoices. The buyer initiates all Lightning payments directly from their own wallet to each party (user, relay operator, and creator). Buyers never send funds to the relay itself and retain full control over their payment tools and methods.
 
 ---
 
@@ -40,13 +56,13 @@ The Privacy Lion relay does **none** of the following:
 
 ### What the Relay *Does*
 
-- Hosts encrypted user-published events (NOSTR `kind: 30078`)
-- Provides metadata about data for sale (e.g., amount, wallet type, destination)
+- Hosts encrypted user-published events (NOSTR `kind: 30078`)  
+- Provides metadata about data for sale (e.g., amount, wallet type, destination)  
 - Generates **3 separate payment invoices** for:
-  - The data seller
-  - The relay operator
-  - The creator (mandatory)
-- Listens for external Lightning payments
+  - The data seller  
+  - The relay operator  
+  - The creator (mandatory)  
+- Listens for external Lightning payments  
 - Unlocks data access after all payments are confirmed
 
 ### What the Relay *Does NOT Do*
@@ -75,11 +91,36 @@ Relay only checks for externally verifiable payment and unlocks content. It acts
 
 ---
 
+## Three-Wallet Schema Overview
+
+The Privacy Lion system uses a **user-selected, three-wallet schema** to maintain full decentralization and eliminate custody risk. Each participant designates their own payout method, and all Lightning payments are peer-to-peer.
+
+### Roles & Wallets
+
+| Role              | Who Sets It | Destination Example                   | Used For                    |
+|-------------------|-------------|----------------------------------------|-----------------------------|
+| **User (Seller)** | Mobile App  | NWC, Breez SDK, or LNURL-pay          | Earns 90% of sale           |
+| **Relay Operator**| Config File | Static node pubkey or LNURL           | Receives 8.5% fee           |
+| **Creator**       | App Config  | Static Lightning address               | Earns 1.5% of sale          |
+
+Each party is paid directly. The relay only reads wallet metadata from the event and listens for payment confirmation.
+
+> **At no point does the relay hold, forward, or split payments.**
+
+---
+
+## Auditability
+
+All transactions occur on the public Lightning Network and can be independently verified by users and third parties.  
+The relay does not maintain internal ledgers, databases, or balances for any users.
+
+---
+
 ## Important Notes
 
 To maintain legal protection:
-- Never custody funds
-- Never bundle payments
+- Never custody funds  
+- Never bundle payments  
 - Keep payment logic peer-to-peer and stateless
 
 ---
@@ -95,3 +136,4 @@ The Privacy Lion relay is a decentralized, non-custodial **data host**. It enfor
 **Legal Contact:** legal@privacy-lion.com  
 **Maintainer:** Privacy Lion LLC  
 **Last Reviewed:** May 30, 2025
+
