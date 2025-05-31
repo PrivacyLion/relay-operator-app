@@ -197,6 +197,6 @@ The Privacy Lion relay is a decentralized, non-custodial **data host**. It enfor
 
 **Legal Contact:** legal@privacy-lion.com  
 **Maintainer:** Privacy Lion LLC  
-**Last Reviewed:** May 30, 2025
+**Last Reviewed:** May 31, 2025
 
 
