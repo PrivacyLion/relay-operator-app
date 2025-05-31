@@ -166,23 +166,56 @@ To reduce legal exposure:
 
 | State         | Risk Trigger                                | Why We're Compliant                                                 |
 |---------------|---------------------------------------------|----------------------------------------------------------------------|
+| Alabama       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Alaska        | No crypto-specific MSB exemptions           | Relay is stateless and does not touch user funds                    |
+| Arizona       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Arkansas      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | California    | Pending or vetoed crypto regulation         | No custody, no fiat ramps, no user identity storage. Stateless P2P model. |
 | Colorado      | State-chartered crypto custody framework    | Relay is not a custodian and holds no user funds                    |
-| Connecticut   | Custody = license                           | Relay is stateless, non-custodial, and transmits no value          |
-| Florida       | Chapter 560 MSB law                         | We never transmit or custody funds. Payments are peer-to-peer only |
+| Connecticut   | Custody = license                           | Relay is stateless, non-custodial, and transmits no value           |
+| Delaware      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Florida       | Chapter 560 MSB law                         | We never transmit or custody funds. Payments are peer-to-peer only  |
 | Georgia       | Virtual currency under general MSB laws     | Relay does not convert, transmit, or hold value; P2P only           |
 | Hawaii        | License requirement repealed (July 2024)    | Hawaii no longer requires licenses for crypto. We remain non-custodial |
+| Idaho         | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Illinois      | Digital Asset Regulation Act (DARA)         | Law targets custodians; relay has no custody or fiat involvement    |
+| Indiana       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Iowa          | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Kansas        | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Kentucky      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Louisiana     | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Maine         | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Maryland      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Massachusetts | Aggressive AG enforcement on crypto ads     | We do not onboard users with fiat or target retail consumers        |
+| Michigan      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Minnesota     | Broad MSB definitions may include relays    | Our relay is non-custodial, stateless, and doesn’t facilitate exchange |
+| Mississippi   | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Missouri      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Montana       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Nebraska      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Nevada        | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| New Hampshire | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | New Jersey    | Proposed BitLicense-style law               | Relay operates without custody or value transmission                |
+| New Mexico    | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | New York      | BitLicense required for virtual currency    | We proactively block all NY IPs. No users in jurisdiction = no exposure |
 | North Carolina| Money transmission includes virtual currency| We never hold or transmit funds. Lightning is peer-to-peer and user-initiated |
+| North Dakota  | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Ohio          | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Oklahoma      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Oregon        | Exploring stablecoin and crypto taxation    | Relay has no stablecoin or fiat exposure; monitor for future laws   |
 | Pennsylvania  | Studying virtual currency MSB status        | Relay performs no money transmission and holds no assets            |
+| Rhode Island  | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| South Carolina| No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| South Dakota  | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Tennessee     | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Texas         | Custodial wallet triggers MSB rules         | Relay does not custody or transmit funds; users hold their own keys |
+| Utah          | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Vermont       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Virginia      | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 | Washington    | Licensure required for crypto transmitters  | No fiat ramps or custody; Lightning payments handled by users       |
+| West Virginia | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Wisconsin     | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
+| Wyoming       | No specific guidance identified             | No specific guidance or regulatory trigger identified to date        |
 
 ---
 
