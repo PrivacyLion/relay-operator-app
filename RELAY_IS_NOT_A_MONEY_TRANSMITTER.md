@@ -199,8 +199,6 @@ To reduce legal exposure:
 | Kuwait             | Unclear framework; monitoring underway                                             | Relay avoids custody and fiat; operates legally within current uncertainty                                  |
 | Oman               | No formal licensing; crypto discouraged                                            | Stateless architecture with no fiat involvement minimizes regulatory exposure                               |
 | Jordan             | Banks prohibited from crypto; private use not illegal                              | Relay does not use banks or touch fiat; Lightning remains user-controlled                                   |
-| Egypt              | Crypto prohibited by Central Bank                                                  | Recommend blocking IPs from Egypt to ensure compliance                                                      |
-| Iran               | Crypto permitted for foreign trade; domestic use restricted                        | Relay does not facilitate domestic commerce; Lightning use remains compliant                                |
 | Turkey             | Crypto payments banned for goods/services                                          | Relay does not support goods/service payments — only metadata access via pay-to-read                        |
 | Lebanon            | Crypto tolerated but unregulated                                                   | No custody, no fiat — relay remains outside state-controlled financial system                               |
 | Israel             | Regulated market for exchanges and custodians                                      | Relay does not hold funds or operate as a VASP — not subject to licensing                                   |
@@ -217,8 +215,21 @@ To reduce legal exposure:
 | Australia          | AUSTRAC regulates custody and exchanges                                            | Relay avoids custody and fiat entirely; user payments are peer-to-peer over Lightning                       |
 | Brazil             | Legal framework passed; crypto exchanges must register with central bank           | Relay is not an exchange or custodian. Peer-to-peer architecture keeps it outside licensing scope           |
 | India              | 30% tax on crypto income; exchanges must register and comply with AML/KYC          | Relay does not custody, convert, or process crypto; Lightning is user-controlled and stateless              |
-| Russia             | Crypto is legal for investment; banned as payment method                           | Relay enforces metadata access, not payments for goods — complies with payment use restrictions             |
 | South Africa       | Crypto classified as financial product; exchanges require FSCA license             | Relay is not an exchange or financial product provider — no custody, fiat, or asset issuance involved       |
+| South Korea        | Strict licensing under FSC and Financial Intelligence Unit (FIU)                   | Relay does not offer custody or fiat ramps. P2P Lightning usage and stateless relay place it outside VASP scope |
+
+---
+
+### ***Blocked Jurisdictions***
+
+| Country        | Reason for Block                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| **Russia**     | Under U.S., EU, and UK sanctions. Providing service = high OFAC/FATF enforcement risk |
+| **Iran**       | Comprehensive U.S. sanctions. Any access = OFAC exposure                          |
+| **Egypt**      | Crypto banned by Central Bank; providing access would violate national law        |
+| **Cuba**       | U.S. embargo prohibits offering software or services to Cuban residents           |
+| **Syria**      | Broad U.S. and EU sanctions; export of tech/services to Syria is prohibited       |
+| **Venezuela**  | Subject to U.S. sanctions, especially around crypto (e.g., Petro); access creates compliance risk |
 
 ---
 
