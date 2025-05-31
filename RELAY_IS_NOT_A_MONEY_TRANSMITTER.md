@@ -135,12 +135,55 @@ The relay does not maintain internal ledgers, databases, or balances for any use
 
 ---
 
+## ***U.S. Jurisdictional Considerations***
+
+To reduce legal exposure:
+
+- The Privacy Lion relay does **not** possess a New York BitLicense.
+- Therefore, **Privacy Lion blocks access from New York IP addresses** to the relay, mobile app, and browser extension.
+- The system is non-custodial and never pools, splits, or forwards funds.
+- All contributors and operators are advised to consult legal counsel if operating in sensitive U.S. jurisdictions.
+
+---
+
+### ***California (CA)***
+
+- California’s prior **Digital Financial Assets Law (AB 2269)** attempted to introduce a licensing regime for virtual asset businesses. Although vetoed in 2022, similar bills may reappear.
+- Privacy Lion currently **does not meet the definition of a "digital financial asset business"** because it holds no custody, does not intermediate transactions, and operates only as a data host.
+- Privacy Lion does **not solicit, onboard, or contract with California residents** for financial services, and recommends that all operators monitor California’s legislative developments.
+
+---
+
+### ***Florida (FL)***
+
+- Florida law defines money services businesses under **Chapter 560** of the Florida Statutes. However, its regulatory reach primarily targets custodial financial platforms.
+- The Florida Office of Financial Regulation (OFR) has not interpreted **non-custodial, peer-to-peer Lightning relay platforms** as MSBs, but guidance is evolving.
+- Privacy Lion maintains **no custodial accounts, no transmission function, and no financial contracts** with Florida users.
+
+---
+
+## State-by-State Risk Summary
+
+| State         | Risk Trigger                              | Action Taken                                   |
+|---------------|-------------------------------------------|------------------------------------------------|
+| **New York**  | BitLicense required for virtual currency  | IPs blocked from relay, app, and extension   |
+| **California**| Pending or vetoed crypto regulation       | Monitor laws, currently not restrictive     |
+| **Florida**   | Chapter 560 MSB law                       | Relay is compliant, monitor enforcement     |
+| **Texas**     | Custodial wallet triggers MSB rules       | Relay avoids custody                        |
+| **Connecticut**| Custody = license                        | Document stateless architecture             |
+| **New Jersey**| Proposed BitLicense-style law             | Monitor upcoming legislation                |
+| **Illinois**  | Digital Asset Regulation Act (DARA)       | Applies to custodians, not stateless relays |
+
+---
+
 ## Important Notes
 
 To maintain legal protection:
 - Never custody funds  
 - Never bundle payments  
-- Keep payment logic peer-to-peer and stateless
+- Keep payment logic peer-to-peer and stateless  
+- Avoid user onboarding, wallet control, or transmission of value  
+- Block IP access from New York to reduce jurisdictional risk
 
 ---
 
@@ -155,4 +198,5 @@ The Privacy Lion relay is a decentralized, non-custodial **data host**. It enfor
 **Legal Contact:** legal@privacy-lion.com  
 **Maintainer:** Privacy Lion LLC  
 **Last Reviewed:** May 30, 2025
+
 
