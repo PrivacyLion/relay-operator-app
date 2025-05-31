@@ -162,7 +162,7 @@ To reduce legal exposure:
 
 ---
 
-### ***State-by-State Risk Summary*** (Alphabetical)
+### ***State-by-State Risk Summary***
 
 | State         | Risk Trigger                                | Why We're Compliant                                                 |
 |---------------|---------------------------------------------|----------------------------------------------------------------------|
@@ -188,7 +188,7 @@ To reduce legal exposure:
 
 ## ***International Considerations***
 
-### ***International Summary*** (Alphabetical)
+### ***International Summary***
 
 | Region/Country     | Regulatory Status                                                                 | Why We're Compliant                                                                                         |
 |--------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -220,7 +220,7 @@ To reduce legal exposure:
 
 ---
 
-### ***Blocked Jurisdictions*** (Alphabetical)
+### ***Blocked Jurisdictions***
 
 | Country        | Reason for Block                                                                 |
 |----------------|----------------------------------------------------------------------------------|
