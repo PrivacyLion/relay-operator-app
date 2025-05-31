@@ -186,6 +186,42 @@ To reduce legal exposure:
 
 ---
 
+## ***International Considerations***
+
+### ***International Summary***
+
+| Region/Country     | Regulatory Status                                                                 | Why We're Compliant                                                                                         |
+|--------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| United Arab Emirates (UAE) | Licensing required for VASPs under VARA/SCA/ADGM                           | Relay is non-custodial, stateless, and does not qualify as a VASP                                           |
+| Saudi Arabia       | Crypto not banned, but banks prohibited from processing                           | Relay avoids fiat and banking rails; Lightning is user-controlled and P2P                                  |
+| Qatar              | VASP licensing under development                                                   | Relay does not custody, exchange, or issue assets — not within regulatory scope                             |
+| Bahrain            | Regulated market for exchanges and custodians                                     | Relay is not an exchange or custodian — not subject to licensing                                            |
+| Kuwait             | Unclear framework; monitoring underway                                             | Relay avoids custody and fiat; operates legally within current uncertainty                                  |
+| Oman               | No formal licensing; crypto discouraged                                            | Stateless architecture with no fiat involvement minimizes regulatory exposure                               |
+| Jordan             | Banks prohibited from crypto; private use not illegal                              | Relay does not use banks or touch fiat; Lightning remains user-controlled                                   |
+| Egypt              | Crypto prohibited by Central Bank                                                  | Recommend blocking IPs from Egypt to ensure compliance                                                      |
+| Iran               | Crypto permitted for foreign trade; domestic use restricted                        | Relay does not facilitate domestic commerce; Lightning use remains compliant                                |
+| Turkey             | Crypto payments banned for goods/services                                          | Relay does not support goods/service payments — only metadata access via pay-to-read                        |
+| Lebanon            | Crypto tolerated but unregulated                                                   | No custody, no fiat — relay remains outside state-controlled financial system                               |
+| Israel             | Regulated market for exchanges and custodians                                      | Relay does not hold funds or operate as a VASP — not subject to licensing                                   |
+| European Union (EU)| MiCA regulates exchanges/custody. GDPR applies                                     | Relay is non-custodial and stateless. Recommend ephemeral storage to comply with GDPR                       |
+| United Kingdom (UK)| FCA regulates exchanges, wallets, promotions                                       | Relay is infrastructure only — not a regulated financial service                                            |
+| Switzerland        | Crypto-friendly but regulated for custodians                                       | Relay is stateless and holds no funds — not in scope                                                        |
+| Japan              | Strict exchange licensing; AML required                                            | Relay does not trade, custody, or process fiat — not subject to FSA oversight                               |
+| Taiwan             | Soft-regulated. Exchanges follow AML guidance                                      | Relay does not handle fiat or user identity — exempt from current AML scope                                 |
+| Singapore          | Licensing required for DPT providers                                               | Relay is not a DPT service provider — no custody, no exchange, no token issuance                            |
+| Hong Kong          | Licensing required for retail exchanges                                            | Relay does not target retail users or offer custody services                                                |
+| Vietnam            | Crypto unregulated; not legal tender                                               | Relay is stateless, avoids fiat, and does not operate as an exchange                                        |
+| Philippines        | BSP licenses exchanges and custodians                                              | Relay does not provide fiat ramps or hold user funds — not a VASP                                           |
+| Thailand           | Crypto regulated by Thai SEC                                                       | Relay is infrastructure only; does not operate as an exchange or wallet                                     |
+| Australia          | AUSTRAC regulates custody and exchanges                                            | Relay avoids custody and fiat entirely; user payments are peer-to-peer over Lightning                       |
+| Brazil             | Legal framework passed; crypto exchanges must register with central bank           | Relay is not an exchange or custodian. Peer-to-peer architecture keeps it outside licensing scope           |
+| India              | 30% tax on crypto income; exchanges must register and comply with AML/KYC          | Relay does not custody, convert, or process crypto; Lightning is user-controlled and stateless              |
+| Russia             | Crypto is legal for investment; banned as payment method                           | Relay enforces metadata access, not payments for goods — complies with payment use restrictions             |
+| South Africa       | Crypto classified as financial product; exchanges require FSCA license             | Relay is not an exchange or financial product provider — no custody, fiat, or asset issuance involved       |
+
+---
+
 ## Important Notes
 
 To maintain legal protection:
