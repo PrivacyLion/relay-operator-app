@@ -162,72 +162,72 @@ To reduce legal exposure:
 
 ---
 
-### ***State-by-State Risk Summary***
+### ***State-by-State Risk Summary*** (Alphabetical)
 
 | State         | Risk Trigger                                | Why We're Compliant                                                 |
 |---------------|---------------------------------------------|----------------------------------------------------------------------|
-| New York      | BitLicense required for virtual currency    | We proactively block all NY IPs. No users in jurisdiction = no exposure. |
+| Alaska        | No crypto-specific MSB exemptions           | Relay is stateless and does not touch user funds                    |
 | California    | Pending or vetoed crypto regulation         | No custody, no fiat ramps, no user identity storage. Stateless P2P model. |
-| Florida       | Chapter 560 MSB law                         | We never transmit or custody funds. Payments are peer-to-peer only. |
-| Texas         | Custodial wallet triggers MSB rules         | We are non-custodial. Wallets are user-controlled with no fiat involved. |
-| Connecticut   | Custody = license                           | Relay is stateless, non-custodial, and transmits no value.           |
-| New Jersey    | Proposed BitLicense-style law               | Relay does not handle money, fiat, or custody. No license applies.   |
-| Illinois      | Digital Asset Regulation Act (DARA)         | DARA targets custodians. Our relay has no custody, no fiat, no accounts. |
-| Hawaii        | License requirement repealed (July 2024)    | Hawaii no longer requires licenses for crypto. We remain non-custodial. |
-| North Carolina| Money transmission includes virtual currency| We never hold or transmit funds. Lightning is peer-to-peer and user-initiated. |
-| Washington    | Licensure required for crypto transmitters  | We don't transmit money or value. Relay is stateless and open source. |
-| Alaska        | No crypto-specific MSB exemptions           | No custody, no fiat, no user funds ever touch the relay.             |
-| Georgia       | Virtual currency under general MSB laws     | Relay never touches fiat or user funds. P2P Lightning transactions only. |
-| Minnesota     | Broad MSB definitions may include relays    | Our relay is non-custodial, stateless, and doesn’t facilitate exchange. |
-| Massachusetts | Aggressive AG enforcement on crypto ads     | We do not onboard users with fiat or target retail consumers.        |
-| Oregon        | Exploring stablecoin and crypto taxation    | We do not support stablecoins or fiat. Relay hosts encrypted data only. |
-| Colorado      | State-chartered crypto custody framework    | Applies to custodians. Our relay does not hold or manage any funds.  |
-| Pennsylvania  | Studying virtual currency MSB status        | We are stateless, non-custodial, and do not engage in money transmission. |
+| Colorado      | State-chartered crypto custody framework    | Relay is not a custodian and holds no user funds                    |
+| Connecticut   | Custody = license                           | Relay is stateless, non-custodial, and transmits no value          |
+| Florida       | Chapter 560 MSB law                         | We never transmit or custody funds. Payments are peer-to-peer only |
+| Georgia       | Virtual currency under general MSB laws     | Relay does not convert, transmit, or hold value; P2P only           |
+| Hawaii        | License requirement repealed (July 2024)    | Hawaii no longer requires licenses for crypto. We remain non-custodial |
+| Illinois      | Digital Asset Regulation Act (DARA)         | Law targets custodians; relay has no custody or fiat involvement    |
+| Massachusetts | Aggressive AG enforcement on crypto ads     | We do not onboard users with fiat or target retail consumers        |
+| Minnesota     | Broad MSB definitions may include relays    | Our relay is non-custodial, stateless, and doesn’t facilitate exchange |
+| New Jersey    | Proposed BitLicense-style law               | Relay operates without custody or value transmission                |
+| New York      | BitLicense required for virtual currency    | We proactively block all NY IPs. No users in jurisdiction = no exposure |
+| North Carolina| Money transmission includes virtual currency| We never hold or transmit funds. Lightning is peer-to-peer and user-initiated |
+| Oregon        | Exploring stablecoin and crypto taxation    | Relay has no stablecoin or fiat exposure; monitor for future laws   |
+| Pennsylvania  | Studying virtual currency MSB status        | Relay performs no money transmission and holds no assets            |
+| Texas         | Custodial wallet triggers MSB rules         | Relay does not custody or transmit funds; users hold their own keys |
+| Washington    | Licensure required for crypto transmitters  | No fiat ramps or custody; Lightning payments handled by users       |
 
 ---
 
 ## ***International Considerations***
 
-### ***International Summary***
+### ***International Summary*** (Alphabetical)
 
 | Region/Country     | Regulatory Status                                                                 | Why We're Compliant                                                                                         |
 |--------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| United Arab Emirates (UAE) | Licensing required for VASPs under VARA/SCA/ADGM                           | Relay is non-custodial, stateless, and does not qualify as a VASP                                           |
-| Saudi Arabia       | Crypto not banned, but banks prohibited from processing                           | Relay avoids fiat and banking rails; Lightning is user-controlled and P2P                                  |
-| Qatar              | VASP licensing under development                                                   | Relay does not custody, exchange, or issue assets — not within regulatory scope                             |
-| Bahrain            | Regulated market for exchanges and custodians                                     | Relay is not an exchange or custodian — not subject to licensing                                            |
-| Kuwait             | Unclear framework; monitoring underway                                             | Relay avoids custody and fiat; operates legally within current uncertainty                                  |
-| Oman               | No formal licensing; crypto discouraged                                            | Stateless architecture with no fiat involvement minimizes regulatory exposure                               |
-| Jordan             | Banks prohibited from crypto; private use not illegal                              | Relay does not use banks or touch fiat; Lightning remains user-controlled                                   |
-| Turkey             | Crypto payments banned for goods/services                                          | Relay does not support goods/service payments — only metadata access via pay-to-read                        |
-| Lebanon            | Crypto tolerated but unregulated                                                   | No custody, no fiat — relay remains outside state-controlled financial system                               |
-| Israel             | Regulated market for exchanges and custodians                                      | Relay does not hold funds or operate as a VASP — not subject to licensing                                   |
-| European Union (EU)| MiCA regulates exchanges/custody. GDPR applies                                     | Relay is non-custodial and stateless. Recommend ephemeral storage to comply with GDPR                       |
-| United Kingdom (UK)| FCA regulates exchanges, wallets, promotions                                       | Relay is infrastructure only — not a regulated financial service                                            |
-| Switzerland        | Crypto-friendly but regulated for custodians                                       | Relay is stateless and holds no funds — not in scope                                                        |
-| Japan              | Strict exchange licensing; AML required                                            | Relay does not trade, custody, or process fiat — not subject to FSA oversight                               |
-| Taiwan             | Soft-regulated. Exchanges follow AML guidance                                      | Relay does not handle fiat or user identity — exempt from current AML scope                                 |
-| Singapore          | Licensing required for DPT providers                                               | Relay is not a DPT service provider — no custody, no exchange, no token issuance                            |
-| Hong Kong          | Licensing required for retail exchanges                                            | Relay does not target retail users or offer custody services                                                |
-| Vietnam            | Crypto unregulated; not legal tender                                               | Relay is stateless, avoids fiat, and does not operate as an exchange                                        |
-| Philippines        | BSP licenses exchanges and custodians                                              | Relay does not provide fiat ramps or hold user funds — not a VASP                                           |
-| Thailand           | Crypto regulated by Thai SEC                                                       | Relay is infrastructure only; does not operate as an exchange or wallet                                     |
 | Australia          | AUSTRAC regulates custody and exchanges                                            | Relay avoids custody and fiat entirely; user payments are peer-to-peer over Lightning                       |
+| Bahrain            | Regulated market for exchanges and custodians                                     | Relay is not an exchange or custodian — not subject to licensing                                            |
 | Brazil             | Legal framework passed; crypto exchanges must register with central bank           | Relay is not an exchange or custodian. Peer-to-peer architecture keeps it outside licensing scope           |
+| European Union (EU)| MiCA regulates exchanges/custody. GDPR applies                                     | Relay is non-custodial and stateless. Recommend ephemeral storage to comply with GDPR                       |
+| Hong Kong          | Licensing required for retail exchanges                                            | Relay does not target retail users or offer custody services                                                |
 | India              | 30% tax on crypto income; exchanges must register and comply with AML/KYC          | Relay does not custody, convert, or process crypto; Lightning is user-controlled and stateless              |
+| Israel             | Regulated market for exchanges and custodians                                      | Relay does not hold funds or operate as a VASP — not subject to licensing                                   |
+| Japan              | Strict exchange licensing; AML required                                            | Relay does not trade, custody, or process fiat — not subject to FSA oversight                               |
+| Jordan             | Banks prohibited from crypto; private use not illegal                              | Relay does not use banks or touch fiat; Lightning remains user-controlled                                   |
+| Kuwait             | Unclear framework; monitoring underway                                             | Relay avoids custody and fiat; operates legally within current uncertainty                                  |
+| Lebanon            | Crypto tolerated but unregulated                                                   | No custody, no fiat — relay remains outside state-controlled financial system                               |
+| Oman               | No formal licensing; crypto discouraged                                            | Stateless architecture with no fiat involvement minimizes regulatory exposure                               |
+| Philippines        | BSP licenses exchanges and custodians                                              | Relay does not provide fiat ramps or hold user funds — not a VASP                                           |
+| Qatar              | VASP licensing under development                                                   | Relay does not custody, exchange, or issue assets — not within regulatory scope                             |
+| Saudi Arabia       | Crypto not banned, but banks prohibited from processing                           | Relay avoids fiat and banking rails; Lightning is user-controlled and P2P                                  |
+| Singapore          | Licensing required for DPT providers                                               | Relay is not a DPT service provider — no custody, no exchange, no token issuance                            |
 | South Africa       | Crypto classified as financial product; exchanges require FSCA license             | Relay is not an exchange or financial product provider — no custody, fiat, or asset issuance involved       |
 | South Korea        | Strict licensing under FSC and Financial Intelligence Unit (FIU)                   | Relay does not offer custody or fiat ramps. P2P Lightning usage and stateless relay place it outside VASP scope |
+| Switzerland        | Crypto-friendly but regulated for custodians                                       | Relay is stateless and holds no funds — not in scope                                                        |
+| Taiwan             | Soft-regulated. Exchanges follow AML guidance                                      | Relay does not handle fiat or user identity — exempt from current AML scope                                 |
+| Thailand           | Crypto regulated by Thai SEC                                                       | Relay is infrastructure only; does not operate as an exchange or wallet                                     |
+| Turkey             | Crypto payments banned for goods/services                                          | Relay does not support goods/service payments — only metadata access via pay-to-read                        |
+| United Arab Emirates (UAE) | Licensing required for VASPs under VARA/SCA/ADGM                           | Relay is non-custodial, stateless, and does not qualify as a VASP                                           |
+| United Kingdom (UK)| FCA regulates exchanges, wallets, promotions                                       | Relay is infrastructure only — not a regulated financial service                                            |
+| Vietnam            | Crypto unregulated; not legal tender                                               | Relay is stateless, avoids fiat, and does not operate as an exchange                                        |
 
 ---
 
-### ***Blocked Jurisdictions***
+### ***Blocked Jurisdictions*** (Alphabetical)
 
 | Country        | Reason for Block                                                                 |
 |----------------|----------------------------------------------------------------------------------|
-| **Russia**     | Under U.S., EU, and UK sanctions. Providing service = high OFAC/FATF enforcement risk |
-| **Iran**       | Comprehensive U.S. sanctions. Any access = OFAC exposure                          |
-| **Egypt**      | Crypto banned by Central Bank; providing access would violate national law        |
 | **Cuba**       | U.S. embargo prohibits offering software or services to Cuban residents           |
+| **Egypt**      | Crypto banned by Central Bank; providing access would violate national law        |
+| **Iran**       | Comprehensive U.S. sanctions. Any access = OFAC exposure                          |
+| **Russia**     | Under U.S., EU, and UK sanctions. Providing service = high OFAC/FATF enforcement risk |
 | **Syria**      | Broad U.S. and EU sanctions; export of tech/services to Syria is prohibited       |
 | **Venezuela**  | Subject to U.S. sanctions, especially around crypto (e.g., Petro); access creates compliance risk |
 
