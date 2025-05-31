@@ -162,17 +162,27 @@ To reduce legal exposure:
 
 ---
 
-## State-by-State Risk Summary
+### ***State-by-State Risk Summary***
 
-| State         | Risk Trigger                              | Action Taken                                   |
-|---------------|-------------------------------------------|------------------------------------------------|
-| **New York**  | BitLicense required for virtual currency  | IPs blocked from relay, app, and extension   |
-| **California**| Pending or vetoed crypto regulation       | Monitor laws, currently not restrictive     |
-| **Florida**   | Chapter 560 MSB law                       | Relay is compliant, monitor enforcement     |
-| **Texas**     | Custodial wallet triggers MSB rules       | Relay avoids custody                        |
-| **Connecticut**| Custody = license                        | Document stateless architecture             |
-| **New Jersey**| Proposed BitLicense-style law             | Monitor upcoming legislation                |
-| **Illinois**  | Digital Asset Regulation Act (DARA)       | Applies to custodians, not stateless relays |
+| State         | Risk Trigger                                | Why We're Compliant                                                 |
+|---------------|---------------------------------------------|----------------------------------------------------------------------|
+| New York      | BitLicense required for virtual currency    | We proactively block all NY IPs. No users in jurisdiction = no exposure. |
+| California    | Pending or vetoed crypto regulation         | No custody, no fiat ramps, no user identity storage. Stateless P2P model. |
+| Florida       | Chapter 560 MSB law                         | We never transmit or custody funds. Payments are peer-to-peer only. |
+| Texas         | Custodial wallet triggers MSB rules         | We are non-custodial. Wallets are user-controlled with no fiat involved. |
+| Connecticut   | Custody = license                           | Relay is stateless, non-custodial, and transmits no value.           |
+| New Jersey    | Proposed BitLicense-style law               | Relay does not handle money, fiat, or custody. No license applies.   |
+| Illinois      | Digital Asset Regulation Act (DARA)         | DARA targets custodians. Our relay has no custody, no fiat, no accounts. |
+| Hawaii        | License requirement repealed (July 2024)    | Hawaii no longer requires licenses for crypto. We remain non-custodial. |
+| North Carolina| Money transmission includes virtual currency| We never hold or transmit funds. Lightning is peer-to-peer and user-initiated. |
+| Washington    | Licensure required for crypto transmitters  | We don't transmit money or value. Relay is stateless and open source. |
+| Alaska        | No crypto-specific MSB exemptions           | No custody, no fiat, no user funds ever touch the relay.             |
+| Georgia       | Virtual currency under general MSB laws     | Relay never touches fiat or user funds. P2P Lightning transactions only. |
+| Minnesota     | Broad MSB definitions may include relays    | Our relay is non-custodial, stateless, and doesn’t facilitate exchange. |
+| Massachusetts | Aggressive AG enforcement on crypto ads     | We do not onboard users with fiat or target retail consumers.        |
+| Oregon        | Exploring stablecoin and crypto taxation    | We do not support stablecoins or fiat. Relay hosts encrypted data only. |
+| Colorado      | State-chartered crypto custody framework    | Applies to custodians. Our relay does not hold or manage any funds.  |
+| Pennsylvania  | Studying virtual currency MSB status        | We are stateless, non-custodial, and do not engage in money transmission. |
 
 ---
 
