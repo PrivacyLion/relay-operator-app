@@ -85,7 +85,7 @@ This project is licensed under the [Elastic License 2.0](./LICENSE).
 
 ## About Privacy Lion
 
-**Privacy should pay. Now it does.** All code is open source and purpose-built to empower humans to control what they already own - their identity and data.
+**Privacy should pay. Now it does.**  All code is open source and purpose-built to empower humans to control what they already own - their identity and data.
 
 
 
