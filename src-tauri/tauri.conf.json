@@ -1,13 +1,12 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "relay-fix",
+  "identifier": "com.privacylion.relay",
+  "productName": "Relay Operator GUI",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "../frontend/dist",
-    "devUrl": "http://localhost:5174",
-    "beforeDevCommand": "npm run dev",
-    "beforeBuildCommand": "npm run build"
+    "beforeDevCommand": "npm run dev --prefix frontend",
+    "beforeBuildCommand": "npm run build --prefix frontend",
+    "devUrl": "http://localhost:5173"
   },
   "app": {
     "windows": [
@@ -35,3 +34,12 @@
     ]
   }
 }
+
+
+
+
+
+
+
+
+
