@@ -6,6 +6,33 @@
     "main"
   ],
   "permissions": [
-    "core:default"
+    "core:default",
+    "shell:allow-spawn",
+    "shell:allow-kill",
+    {
+      "identifier": "shell:allow-execute",
+      "allow": [
+        {
+          "name": "docker",
+          "cmd": "docker",
+          "args": true
+        },
+        {
+          "name": "curl",
+          "cmd": "curl", 
+          "args": true
+        },
+        {
+          "name": "cargo",
+          "cmd": "cargo",
+          "args": true
+        },
+        {
+          "name": "nostr-rs-relay",
+          "cmd": "./target/release/nostr-rs-relay",
+          "args": true
+        }
+      ]
+    }
   ]
 }

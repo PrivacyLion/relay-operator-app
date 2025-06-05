@@ -1,0 +1,16 @@
+
+[info]
+relay_url = "ws://localhost:8080/"
+name = "Privacy Lion Relay"
+description = "Privacy Lion NOSTR Relay - Empowering Data Freedom"
+
+[database]
+data_directory = "./relay-data"
+
+[network]
+port = 8080
+address = "0.0.0.0"
+
+[limits]
+max_event_bytes = 65536
+max_ws_message_bytes = 131072
