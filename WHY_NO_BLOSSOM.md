@@ -35,7 +35,7 @@ That means:
 - If the host censors you, the file is inaccessible  
 - If the host tracks access, your privacy is compromised  
 
-**Blossom is not decentralized in any meaningful sense — it's hash-verified centralized storage.**
+**Blossom is not decentralized in any meaningful sense.**
 
 ***
 
@@ -57,7 +57,7 @@ We don’t accept media blobs, and our relays don’t serve files over HTTP.
 
 ### 3. We Won’t Redefine “Decentralization”
 
-Blossom attempts to retrofit centralized infrastructure into a decentralized protocol — and calls it a win.
+Blossom attempts to retrofit centralized infrastructure into a decentralized protocol.
 
 We believe that’s misleading.
 
@@ -67,8 +67,7 @@ We believe that’s misleading.
 - No centralized file serving  
 - No hidden chokepoints  
 
-You can’t decentralize by outsourcing media storage to a CDN and slapping a hash on it.  
-That’s not peer-to-peer — that’s peer-to-cloud.
+You can’t decentralize by outsourcing media storage to a CDN and slapping a hash on it. 
 
 ***
 
@@ -85,10 +84,5 @@ This keeps Privacy Lion:
 - Permissionless  
 - Censorship-resistant  
 - Truly decentralized  
-
-***
-
-*Want a media CDN? Use Blossom.*  
-*Want real privacy and decentralization? Use Privacy Lion.*
 
 ***
