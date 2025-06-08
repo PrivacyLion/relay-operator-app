@@ -23,7 +23,7 @@ We chose not to integrate Blossom into Privacy Lion. Here's why:
 
 ### 1. Blossom Is Centralized Behind the Scenes
 
-While the **hash of the file** is decentralized (published in a Nostr event), the actual **file storage and delivery** happens through HTTP — usually hosted by:
+While the **hash of the file** is decentralized (published in a NOSTR event), the actual **file storage and delivery** happens through HTTP — usually hosted by:
 
 - CDN-backed blob servers
 - Public mirror endpoints maintained by external parties
@@ -74,7 +74,7 @@ That’s not peer-to-peer — that’s peer-to-cloud.
 
 ### What We Do Instead
 
-- We use **Nostr-native encrypted events** (`kind:30078`) for all data  
+- We use **NOSTR-native encrypted events** (`kind:30078`) for all data  
 - We enforce **ephemeral storage** — user data disappears after a set time  
 - We let users **control access** via Lightning payments  
 - We don’t store media, track blobs, or serve files over HTTP  
